@@ -32,23 +32,23 @@ Please share your solutions within a git repo of your own the can be cloned by m
 
 3. Component State:
 
-Given the following JSON string
+   Given the following JSON string
 
-    {
-        "headerData": ["30%", "$2000000", "85%"],
-        "contentA": "This should be displayed in Panel A. This is visible by default"
-        "contentB": "This should be displayed in Panel B. This should be hidden by default"
-    }
+         {
+           "headerData": ["30%", "$2000000", "85%"],
+           "contentA": "This should be displayed in Panel A. This is visible by default"
+           "contentB": "This should be displayed in Panel B. This should be hidden by default"
+         }
 
-Please implement the following:
-    * Add code to parse the json string.
-    * Displays header data horizontally in a header section. This is always visible
-    * The header section should display a "-" sign by default. When a user clicks this, it will change to a "+" sign.
-    * Displays a content section by default under the header section. When the "-" sign in the header is clicked, this content section becomes hidden.
-    * The content section contains 2 panels side by side. The first panel (panel A) should display contentA data. Content in this panel is visible by default.
-    * The second panel (panel B) should display contentB data. The contents of this panel is hidden by default. The background of this should be *EEEEEE by default.
-    * When panel B (with the hidden content) is clicked the background should change to *FFFFFF and the content should become visible.
-    * When panel B content becomes visible, panel A content should become hidden and the background color should change to *EEEEEE.
-    * The hide/show behavior above should be repeatable any number of times.
+    Please implement the following:
+      * Add code to parse the json string.
+      * Displays header data horizontally in a header section. This is always visible
+      * The header section should display a "-" sign by default. When a user clicks this, it will change to a "+" sign.
+      * Displays a content section by default under the header section. When the "-" sign in the header is clicked, this content section becomes hidden.
+      * The content section contains 2 panels side by side. The first panel (panel A) should display contentA data. Content in this panel is visible by default.
+      * The second panel (panel B) should display contentB data. The contents of this panel is hidden by default. The background of this should be *EEEEEE by default.
+      * When panel B (with the hidden content) is clicked the background should change to *FFFFFF and the content should become visible.
+      * When panel B content becomes visible, panel A content should become hidden and the background color should change to *EEEEEE.
+      * The hide/show behavior above should be repeatable any number of times.
 
 See mockup.png for a reference.
